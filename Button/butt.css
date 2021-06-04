@@ -4,11 +4,9 @@ body{
 }
 .text{
   color: #AA0000;
-  display: block;
 }
 .button{
   padding: 100px 200px;
   background: #AA0000;
-  display: flex;
 
 }
