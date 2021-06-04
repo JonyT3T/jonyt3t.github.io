@@ -1,0 +1,24 @@
+body{
+  background-color: #000000;
+}
+.header{
+  display: block;
+  align-content: center;
+  justify-content: center;
+}
+.buttondiv{
+display: block;
+justify-content: center;
+}
+.text{
+  color: #AA0000;
+  display: flex;
+  align-items: center;
+}
+.button{
+  margin: auto;
+  padding: 100px 200px;
+  background-color: #AA0000;
+  display: flex;
+  align-items: center;
+}
