@@ -3,15 +3,14 @@
   <head>
     <title>button</title>
     <link href="butt.css" rel="stylesheet" type="text/css" />
+    <script>
+ var boom = new audio();
+ boom.src = "boom.mp3";
+    </script>
   </head>
   <body>
     <h1>Hey this is the button you asked for</h1>
-    <button type="button" name="play"> <h1>play</h1>
-      <aduio>
-          <source src="boom.mp3" type="audio/mpeg">
-            your browser does not support the audio element
-      </audio>
-    </button>
+    <button type="button" name="play" onmousedown="boom.play"> <h1>play</h1></button>
 
 
   </body>
